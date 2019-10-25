@@ -5,11 +5,126 @@
   border:0;
 /* Avoids increasing width and height, when adding padding or borders */
   box-sizing: border-box;
+  text-decoration: none;
+  cursor: crosshair;
 }
+
+body{
+  font-family: "Montserrat", sans-serif;
+  font-weight: 800;
+
+}
+
 
 #welcome{
   width: 100%;
   min-height: 100vh;
-  background: url(../images/home.jpg) no-repeat center center;
+  max-height: 100vh;
+  background: url(../images/landing_page.jpg) no-repeat center center;
   background-size: cover;
+}
+
+a:link{
+  color:limegreen;
+}
+a:visited{
+  color: limegreen;
+}
+
+
+#welcome nav{
+  font-size: 36px;
+  display: flex;
+  justify-content: space-around;
+  padding: 36px;
+  align-items: center;
+}
+
+.essayImg{
+  max-width: 100%;
+  min-height: 100vh;
+}
+.essaySection{
+  border: solid 10px black;
+  max-width: 100%;
+  min-height: 100vh;
+}
+
+#liftOff{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+  max-height: auto;
+  background: url("../images/lift_off.jpg") no-repeat center center;
+  background-size: cover;
+  border-top: solid 6px limegreen;
+  border-bottom: solid 6px limegreen
+}
+
+#spaceBorder{
+  width: 100%;
+  min-height: 100vh;
+  max-height: auto;
+  background: url("../images/space_border.jpg") no-repeat center center;
+  background-size: cover;
+  border-top: solid 6px limegreen;
+  border-bottom: solid 6px limegreen
+}
+
+#planetAmazon{
+  width: 100%;
+  min-height: 100vh;
+  max-height: auto;
+  background: url("../images/planet_amazon.jpg") no-repeat center center;
+  background-size: cover;
+  border-top: solid 6px limegreen;
+  border-bottom: solid 6px limegreen
+}
+
+#moodBoard{
+  width: 100%;
+  min-height: 100vh;
+  max-height: auto;
+  background-size: cover;
+  background: url("../images/mood_board.jpg") no-repeat center center;
+  border-top: solid 6px limegreen;
+  border-bottom: solid 6px limegreen;
+}
+
+#wireFrame1{
+  width: 100%;
+  min-height: 100vh;
+  max-height: auto;
+  background-size: cover;
+  background: url("../images/wire_frame-02.jpg") no-repeat center center;
+  border-top: solid 6px limegreen;
+  border-bottom: solid 6px limegreen;
+}
+
+#wireFrame2{
+  width: 100%;
+  min-height: 100vh;
+  max-height: auto;
+  background-size: cover;
+  background: url("../images/wire_frame-01.jpg") no-repeat center center;
+  border-top: solid 6px limegreen;
+  border-bottom: solid 6px limegreen;
+}
+
+.empty_space{
+  width: 100%;
+  height: 75vh;
+  background: url("../images/empty_space.jpg") no-repeat center center;
+  background-size: cover;
+}
+#mobile{
+  display: flex;
+  flex-flow: row wrap;
+  background: url("../images/empty_space.jpg") no-repeat center center;
+  background-size: cover;
+  justify-content: space-around;
+}
+
+.imgHeight{
+
 }
