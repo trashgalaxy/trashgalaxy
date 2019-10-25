@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+*{
+  padding: 0;
+  margin: 0;
+  border:0;
+/* Avoids increasing width and height, when adding padding or borders */
+  box-sizing: border-box;
+}
+
+#welcome{
+  width: 100%;
+  min-height: 100vh;
+  background: url(../images/home.jpg) no-repeat center center;
+  background-size: cover;
+}
